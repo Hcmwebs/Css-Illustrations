@@ -1,0 +1,62 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: darkgreen;
+}
+
+.container {
+  width: 1000px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smileyFace {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: yellow;
+}
+
+.eyes {
+  width: 50%;
+  height: 100px;
+  margin-top: 150px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eye {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.nose {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 30%;
+  height: 350px;
+  margin: 20px auto;
+  clip-path: polygon(50% 0, 75% 50%, 25% 50%);
+}
+
+.mouth {
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  width: 250px;
+  height: 150px;
+  margin-bottom: 100px;
+  border-radius: 50%;
+  border-bottom: 20px solid #000000;
+  border-top-color: transparent;
+}
